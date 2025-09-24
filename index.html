@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wed201c-mooc1</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; margin: 0; padding: 0; color: #111 }
+    header, main, footer { padding: 1.25rem; }
+    header { background: linear-gradient(90deg,#f7f9fc,#eef6ff); border-bottom: 1px solid #e2e8f0 }
+    .gallery { display: flex; gap: .75rem; flex-wrap: wrap }
+    .gallery img { width: 30%; min-width: 160px; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(17,24,39,.06) }
+    nav a { margin-right: .5rem }
+    ul { margin-left: 1.25rem }
+    .container { max-width: 1000px; margin: 0 auto }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Lê Thuận Thành - Wed201c - Mooc 1</h1>
+      <nav aria-label="Liên kết nhanh">
+       <a href="https://myanimelist.net/" target="_blank" rel="noopener noreferrer">MyAnimeList</a>
+        <a href="#gallery">Image</a>
+        <a href="#list">List</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>This is a webpage that includes the three anime series I like the most. <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code>. The page also includes a list, three anime images that I love, and a link to the anime website I usually watch.</p>
+
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Photo collection</h2>
+      <p>These three images are taken from MyAnimeList. Each image includes a short description of the storyline:</p>
+      <div class="gallery">
+        <figure>
+          <img src="images/image1.png" alt="Sword Art Online: Alicization">
+          <figcaption>Sword Art Online: Alicization — Sword Art Online: Alicization follows Kirito’s journey in the virtual Underworld, where he and Eugeo fight to save Alice and uncover the truth behind this mysterious world.</figcaption>
+        </figure>
+
+        <figure>
+           <img src="images/image2.png" alt="Digimon Adventure">
+          <figcaption>Digimon Adventure — Digimon Adventure tells the story of a group of children transported to the Digital World, where they partner with Digimon creatures to battle powerful enemies and protect both the digital and real worlds. </figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/image3.png" alt="Gundam Build Fighters" />
+          <figcaption>Gundam Build Fighters — Gundam Build Fighters follows Sei and his partner Reiji as they compete in Gunpla Battles, where customized Gundam model kits come to life in exciting duels.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="list">
+  <h2>Top 4 Anime of 2025</h2>
+  <p>Here are the four most outstanding anime series of 2025:</p>
+  <ul>
+    <li>Attack on Titan: The Final Chapters</li>
+    <li>One Piece</li>
+    <li>Jujutsu Kaisen</li>
+    <li>Demon Slayer: Kimetsu no Yaiba</li>
+  </ul>
+</section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>See more at <a href="https://myanimelist.net/" target="_blank" rel="noopener noreferrer">MyAnimeList</a>.</p>
+</div>
+  </footer>
+</body>
+</html>
